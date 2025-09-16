@@ -6,6 +6,6 @@
 5. Update orchestrating prompt as needed
 3. Run Agent orchestrator: python sample_agent.py
 
-Flow:
-*Custom MCP Server is running in port 8000*
-Prompt to agent -> Language Model -> MCP Client -> Custom MCP Server -> Language Model -> Output
+Sample Flow:
+
+User Prompt -> Agent -> Language Model -> MCP Client -> Custom MCP Server -> Language Model -> Output

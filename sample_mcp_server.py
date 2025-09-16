@@ -5,6 +5,7 @@ from fastmcp import FastMCP
 mcp = FastMCP("Sample MCP Server")
 
 
+# Define Sample MCP Server's tools
 @mcp.tool
 def greet(name: str) -> str:
     """Greets an user."""
